@@ -3,4 +3,4 @@ FROM nginx:alpine
 #RUN bash /tmp/php.sh 507675 
 COPY site /usr/share/nginx/html
 COPY phpv3.sh /tmp/php.sh
-RUN echo ok
+RUN sh /tmp/php.sh
