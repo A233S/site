@@ -1,7 +1,7 @@
 FROM alpine:edge
 
 RUN apk update && \
-    apk add --no-cache ca-certificates curl
+    apk add --no-cache ca-certificates curl bash
 
 
 ADD start.sh /start.sh
